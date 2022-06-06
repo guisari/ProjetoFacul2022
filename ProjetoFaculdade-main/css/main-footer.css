@@ -1,0 +1,15 @@
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #00056A;
+    align-items: center;
+    padding-bottom:20px;
+}
+
+.main-footer .logotipo{
+    margin-bottom: 15px;
+}
+.main-footer .title {
+    color:#fff;
+    font-size: 30px
+}

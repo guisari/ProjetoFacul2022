@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PinIT</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    </head>
+    <body>
+        <header class="Menu-Principal">
+            <nav>
+                <div class="Header-1">
+                    <div class="logo">
+                        <a href="" target="_blank"><img src="./img/LogoPinIt.png"></a>
+                    </div>
+                    <div class="redes-sociais">
+                        <ul>   
+                            <li><a href=""><i class="bi bi-wifi"></i></a></li>     
+                            <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                            <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                            <li><a href=""><i class="bi bi-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-2">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="feed.html">Feed</a></li>
+                            <li><a href="mp.html">Curtidas</a></li> 
+                            <li><a href="mp.html">Minhas Postagens</a></li>
+                            <li><a href="sobre.html">Sobre Nós</a></li>
+                        </ul>
+                    </div>
+                    <div class="busca">
+                    <input placeholder="Search" type="text"/>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="feed">
+            <div class="container">
+                <!---<div class="row">--->
+                    <div class="col-0 col-md-2"></div>
+                    <div class="col-12">
+            <!---Line-->
+            <hr size="3" width="100%" color="#EEEEEE" style="margin:0%;">
+
+            <!---nav feed-->
+
+            <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
+                    aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i> PUBLICAÇÕES</a>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-outline-secondary button-edit"  onclick="postar()" style= "height:40px; width: 130px;"><i class="bi bi-plus-circle">     Postar</button></i>
+                </li>
+
+            <!---Card feed-->
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row" style="padding-bottom: 25px;">
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/opçao 3.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/MJ.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/BLACK MAMBA.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-bottom: 25px;">
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/ff.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/chef curry.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/cccc.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" style="padding-bottom: 25px;">
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/be legendary.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/traey.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/434d328c627c4ecaef5b3a9c1159f0b5.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="padding-bottom: 25px;">
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/racoon.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/c1.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <img src="img/raca-de-cachorro-docil-2.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-bottom: 25px;">
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/09-Bougainvillea-spectabilis-04.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/depositphotos_9423441-stock-photo-new-york-city-manhattan-dusk.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/casa2.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-bottom: 25px;">
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/casa.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/roar.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/PJ-ou-CLT-qual-o-melhor-regime-de-trabalho.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-bottom: 25px;">
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img//KipjG1.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img/D_NQ_NP_984103-MLB43237357384_082020-O.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="img//Porque-Ilhabela-é-perfeita-para-casais-1024x682.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-0 col-md-2"></div>
+            <!--</div>--->
+            </div>
+        </section>
+ 
+
+        <script src="ref.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>

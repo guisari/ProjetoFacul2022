@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+body{
+    
+overflow-x: hidden;
+min-height: 100vh;
+background: #FCFCFC;
+margin: 0 auto;
+font-family: 'Open Sans', sans-serif;
+}
+    
+ul{
+padding: 0px!important;
+}
+
+.Menu-principal{
+width: 100%;
+background-color: #00056A;
+height: 60px;
+}
+    
+main{
+margin: 0 auto;
+width: 980px;
+position: relative
+}
+    
+.logo{
+float: left;
+padding: 15px;
+width: 70%;
+}
+
+.redes-sociais ul li{
+margin-left: 21px;
+display: inline-block;       
+list-style: none;
+}
+
+.redes-sociais{
+width: 25%;    
+float: right;
+}
+
+.header-2{
+background-color: #ffffff;
+width: 980px;
+margin: 0 auto;
+padding: 16px;
+}
+
+.menu-urls{
+border-bottom: 3px solid #efefef; 
+height: 80px;
+}
+       
+.menu ul li{
+display: inline-block;
+color: #8b8b8b;
+margin-left: 15px;
+padding: 0px;
+height: 48px;
+
+}
+
+.menu ul li:hover{
+border-bottom: 0px solid #4D4DFF;
+}
+
+.menu ul li a:hover{
+color: #4D4DFF;
+}
+     
+.menu ul li a{
+color: #8b8b8b;
+text-decoration: none;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+}
+
+.menu{
+width: 70%;
+float: left;
+}
+    
+.busca{
+text-align: center;
+width: 30%;
+float: right;
+}
+
+.busca input{
+background-image: url('../img/BuscaLogo.png');
+background-repeat: no-repeat;
+background-position: 96%;
+border: 2px solid #d6d6d6;
+height: 36px;
+width: 190px;
+padding: 12px;
+margin-top: 7px;
+}
+    
+.col-100{
+width: 100%;
+float: left;
+position: relative;
+}
+
+.slick-prev{
+font-size: 0;
+border: none;
+width: 25px;
+height: 51px;
+z-index: 9;
+background-color: transparent;
+position: absolute;
+top: 38%;
+left: 8%;
+background-image: url("../img/FlechaEsquerda.png")
+}
+
+.slick-next{
+font-size: 0;
+border: none;
+width: 25px;
+height: 51px;
+z-index: 9;
+background-color: transparent;
+position: absolute;
+top: 38%;
+right: 8%;
+background-image: url("../img/FlechaDireita.png");
+}
+
+footer{
+    margin-top: auto;
+    position: absolute;
+    bottom: -50%;
+    background: #00056A;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color:#FFF;
+}
+
+.footer-content{
+    position: sticky;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+;.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color:#fff;
+}
+.socials a i{
+    font-size:1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: #4D4DFF
+}
+
+.footer-bottom{
+    background: #00056A;
+    padding: 0px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight:200
+}
+
+ul.slick-dots li{
+font-size: 0;
+border: 3px solid #ffffff;
+height: 16px;
+width: 15px;
+border-radius: 50%;
+}
+
+ul.slick-dots li slick-active{
+background-color: #4D4DFF;
+}
